@@ -8,6 +8,7 @@ import React, { Component } from 'react'
        <u1 className="Navbar.nav">
          <li className="nav-list">
            <a class Name="nav-link"href="#">Home</a>
+           <a class name ="nav-link" href="#">About</a>
 
          </li>
        </u1>
