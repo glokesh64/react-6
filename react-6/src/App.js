@@ -1,34 +1,15 @@
-import React, { Component } from 'react'
-import Navbar from "./pulinav/Navbar";
-import Home from './pulinav/message';
-import { BrowserRouter as Router ,Route, Routes } from 'react-router-dom'
-
-
-export default class App extends Component {
-  render() {
+import React from 'react'
+import Message from './state/Massege'
+import Counter from './state/Counter'
+const App=()=>{
     return (
-      <>
-        <Router>
-            <Navbar/>
-            <Routes>
-                <Route path='/' element={<Home/>}></Route>
-            </Routes>
-            
-        </Router>      
-      </>
+     <div>
+      <Message/>
+      <Counter/>
+    </div>
     )
   }
-}
-// function App() {
 
-// }
 
-// import React, { Component } from 'react'
 
-// export default class App extends Component {
-//   render() {
-//     return (
-//       <div>App</div>
-//     )
-//   }
-// }
+export default App
