@@ -14,7 +14,7 @@ class Message extends Component{
         return <div>
             <h1>message component</h1>
             <h2>message:{this.state.message}</h2>
-            <button onClick ={this.gmHandler}>gm</button>
+            <button onClick ={this.gmHandler}>gm</button> 
         </div>
     }
 } 
