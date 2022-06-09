@@ -1,18 +1,16 @@
 import React from 'react'
-import Message from './state/Massege'
-import Counter from './state/Counter'
+import Message from './state/Message';
 const App=()=>{
     return (
      <div>
-      <Message/>
-      <Counter/>
-    </div>
+       <Message/>
+     </div>
     )
   }
+  export default App;
 
 
   
 
 
 
-export default App
